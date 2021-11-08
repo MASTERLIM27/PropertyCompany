@@ -8,7 +8,7 @@
     <div class="mx-auto" style="width:1200px">
         <h1>{{$pageTitle}}</h1>
         <br>
-        <a type="button" class="btn btn-success" href="{{ route('developers.create')}}">Create Course</a>
+        <a type="button" class="btn btn-success" href="{{ route('developers.create')}}">Create Developer</a>
         <br><br>
         <table class="table table-striped text-center">
             <tr>

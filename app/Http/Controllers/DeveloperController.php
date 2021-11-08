@@ -96,10 +96,10 @@ class DeveloperController extends Controller
         $developer->update([
             'code' =>$request->dCode,
             'name' =>$request->dName,
-            'videolink' =>$request->dVideoLink,
+            'videolink' =>$request->dVideolink,
             'description' =>$request->dDescription
         ]);
-        return redirect(route('developer.index'));
+        return redirect(route('developers.index'));
     }
 
     /**
